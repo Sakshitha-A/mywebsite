@@ -249,122 +249,119 @@ button {
     transform: translateY(-1px);
     }
     .bottom-section {
-      
-      background-color: black;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      font-family: 'Times New Roman', Times, serif;
-      border: none;
-      margin-top: 10%;
-      text-transform:none;
-      padding-bottom: 3%;
-      width: 100%;
-    }
-    
-    .bottom-section-columns {
-      display: flex;
-      border: none;
-      flex-direction: column;
-      width: 100%;
-      text-transform:none;
-    }
-    
-    .bottom-section-column {
-      display: flex;
-      border: none;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      text-transform:none;
-      text-justify: auto;
-      margin: 0%;
-    }
-    
-    .bottom-section-title {
-      font-size: 1.2em;
-      font-weight: bold;
-      margin-bottom: 10px;
-      border: none;
-      color: #fff;
-      text-transform:none;
-      padding-left: 5%;
-    }
-    
-    .bottom-section-text {
-      font-size: 0.9em;
-      color: #cbd5e0;
-      border: none;
-      max-width: 400px;
-      text-transform:none;
-      letter-spacing: normal;
-      padding-left: 5%;
-    }
-    
-    .bottom-section-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      border: none;
-      gap: 10px;
-      text-transform:none;
-      color: white;
-      padding-left: 5%;
-    }
-    
-    .bottom-section-list-item {
-      font-size: 0.9em;
-      color: #cbd5e0;
-      text-decoration: none;
-      border: none;
-      text-transform:none;
-    
-    }
-    
-    .bottom-section-list a{
-      color: white;
-      text-decoration: none;
-    }
-    
-    .bottom-section-list-item:hover {
-      color: #f56565;
-      border: none;
-      text-transform:none;
-    }
-    
-    .social-icons {
-      display: flex;
-      gap: 15px;
-      margin-bottom: 0;
-      border: none;
-    }
-    
-    .social-icon {
-      color: #fff;
-      font-size: 1.5em;
-      transition: color 0.3s ease;
-      border: none;
-    }
-    
-    .social-icon:hover {
-      color: #f56565;
-    }
-    
-    .github-icon:hover { color: #6e5494; }
-    .linkedin-icon:hover { color: #0077b5; }
-    .mail-icon:hover { color: #d44638; }
-    
-    
-    @media (min-width: 768px) {
-      .bottom-section-columns {
-          flex-direction: row;
-          justify-content: space-between;
-      }
-      .bottom-section-column {
-          width: 30%;
-      }
-    }
-    
+  
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  margin-top: 10%;
+  text-transform:none;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  width: 100%;
+}
+
+.bottom-section-columns {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  width: 100%;
+  text-transform:none;
+}
+
+.bottom-section-column {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  text-transform:none;
+  text-justify: auto;
+  margin: 0%;
+  padding-left: 5%;
+}
+
+.bottom-section-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border: none;
+  color: #fff;
+  text-transform:none;
+}
+
+.bottom-section-text {
+  font-size: 0.9em;
+  color: #cbd5e0;
+  border: none;
+  max-width: 400px;
+  text-transform:none;
+  letter-spacing: normal;
+}
+
+.bottom-section-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 10px;
+  text-transform:none;
+  color: white;
+}
+
+.bottom-section-list-item {
+  font-size: 0.9em;
+  color: #cbd5e0;
+  text-decoration: none;
+  border: none;
+  text-transform:none;
+}
+
+.bottom-section-list a{
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-section-list-item:hover {
+  color: #f56565;
+  border: none;
+  text-transform:none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 0;
+  border: none;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+  border: none;
+}
+
+.social-icon:hover {
+  color: #f56565;
+}
+
+.github-icon:hover { color: #6e5494; }
+.linkedin-icon:hover { color: #0077b5; }
+.mail-icon:hover { color: #d44638; }
+
+
+@media (min-width: 768px) {
+  .bottom-section-columns {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .bottom-section-column {
+      width: 30%;
+  }
+}
