@@ -6,6 +6,7 @@
   <title>Sakshitha A</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="/assets/logo.png" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
   
@@ -231,8 +232,14 @@
 </div>
 
 </div>
-  <script src="script.js">
-    const aboutMeDiv = document.querySelector('.About-Me');
+  <script>
+    $(document).ready(function() {
+  $(".hamburger-menu").click(function() {
+    $(".nav-links").toggleClass("mobile-menu");
+  });
+});
+
+const aboutMeDiv = document.querySelector('.About-Me');
 let scrolledPastInitial = false;
 
 window.addEventListener('scroll', () => {
@@ -241,7 +248,7 @@ window.addEventListener('scroll', () => {
     console.log('yre - Condition met!');
     scrolledPastInitial = true;
     document.body.style.overflowY = 'auto'; // Enable vertical scrolling
-    aboutMeDiv.classList.toggle('visible'); // Use toggleClass for About Me
+    aboutMeDiv.classList.add('visible'); // Use addClass to ensure visibility
   }
 });
   </script>
