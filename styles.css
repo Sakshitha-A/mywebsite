@@ -142,6 +142,8 @@ p span {
   padding: 1em 2em;
   color: white;
   flex-wrap: wrap;
+  position:relative;
+  z-index:10;
 }
 
 .logo {
@@ -199,13 +201,20 @@ p span {
   width: 100%;
   padding: 1em;
   gap: 1em;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .nav-links.mobile-menu a {
   color: white;
   padding: 0.5em 0;
   display: block; /* Make each link take full width */
+}
+
+.nav-links.mobile-menu a:hover {
+  font-size: larger;
+  padding: 0.5em 0;
+  display: block;
+  z-index: 1000; /* Make each link take full width */
 }
 
 /* Media Queries for Smaller Screens */
