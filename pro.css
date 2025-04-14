@@ -78,6 +78,8 @@ body {
     height: 20px;
     cursor: pointer;
     background: transparent;
+    margin-right: 7%;
+    margin-top: 0%;
     border: none;
     padding: 0;
   }
